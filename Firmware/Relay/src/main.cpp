@@ -1,3 +1,12 @@
+/**
+ * @brief Arquivo exemplo de utilizacao de rele com ESP8266.
+ * @name 
+ * @version | 1.0                   |
+ * @date    | 09/03/2021            |
+ * @author  | athenasarch@gmail.com |
+ * @file    | main.cpp              |
+ **/
+
 #include <Arduino.h>
 
 #define TOGGLE_DATA(DATA) ((DATA)?DATA=0:DATA=1) // utilizado para inverter estado de variavel.
