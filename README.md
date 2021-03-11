@@ -42,21 +42,32 @@ Redes Sociais:
 
 ![image](https://user-images.githubusercontent.com/79209419/110711952-2a29ba80-81df-11eb-9e23-91c1d7102a50.png)
 
+[ PINOUT DA PLACA
+
       1 – L / N: (Fase/Neutro ou Fase/Fase) Fonte de alimentação 90 a 250VAC.
+      
       2 – 90 a 250VAC, circuito fonte de alimentação para DC5V (Quando adotar a alimentação por corrente alternada/tomada, não toque aqui diretamente com a mão !!!).
+      
       3 – VCC / GND: Fonte de alimentação 7 a 12VDC.
+      
       4 - Micro USB: fonte de alimentação 5VDC – USB.
-	      a) Tensão alternada da rede (tomada) AC – de 90 a 250VAC;
+	 a) Tensão alternada da rede (tomada) AC – de 90 a 250VAC;
          b) Fonte de alimentação DC 7 a 30VDC;
          c) Entrada por USB ou fonte de 5V;
+      
       5 - Botão de pressionar (6X6 mm), botão de reinicialização RST do ESP8266.
+      
       6 - Porta de download do programa UART: ESP8266 GND, RX, TX, 5V, conectar separadamente Módulo serial TTL externo: GND, TX, RX, 5V, IO0 – Conectar o IO0 ao GND para fazer o download/gravação do ESP8266. 
+      
       7 - Porta de pinagem GPIO.
+      
       8 - Saída de relé (NA/COM/NF):
          - NO: Normalmente aberto (NA), este pino está aberto em relação ao comum até o relé ser acionado;
          - COM: Comum (COM), este pino pode ser usado com o NO ou com o NC;
          - NC: Normalmente fechado (NC), este pino está em curto com o comum até o relé ser acionado;
+      
       10 - LED programável.
+      
       11 - LED indicador de relé.
       
 By: Leonardo HIlgemberg Lopes.
