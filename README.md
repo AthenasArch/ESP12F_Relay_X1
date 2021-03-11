@@ -42,7 +42,7 @@ Redes Sociais:
 
 ![image](https://user-images.githubusercontent.com/79209419/110711952-2a29ba80-81df-11eb-9e23-91c1d7102a50.png)
 
-[ PINOUT DA PLACA
+# PINOUT DA PLACA
 
       1 – L / N: (Fase/Neutro ou Fase/Fase) Fonte de alimentação 90 a 250VAC.
       
