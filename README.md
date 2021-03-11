@@ -51,9 +51,9 @@ Redes Sociais:
       3 – VCC / GND: Fonte de alimentação 7 a 12VDC.
       
       4 - Micro USB: fonte de alimentação 5VDC – USB.
-	 a) Tensão alternada da rede (tomada) AC – de 90 a 250VAC;
-         b) Fonte de alimentação DC 7 a 30VDC;
-         c) Entrada por USB ou fonte de 5V;
+		a) Tensão alternada da rede (tomada) AC – de 90 a 250VAC;
+		b) Fonte de alimentação DC 7 a 30VDC;
+		c) Entrada por USB ou fonte de 5V;
       
       5 - Botão de pressionar (6X6 mm), botão de reinicialização RST do ESP8266.
       
