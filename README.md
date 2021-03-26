@@ -82,6 +82,8 @@ Redes Sociais:
 
 # GRAVAÇÃO DA PLACA COM "ARDUINO UNO":
 
+OBS: Para gravar com o Arduino uno, é necessário remover o microcontrolador ATMEGA328 da placa.
+
 	1) UNO Pinos 	-----------------------------	ESP12F_RELAY_X1 Pinos:
 	   - GND	-----------------------------	GND
 	   - 5V		-----------------------------	5V
