@@ -70,7 +70,7 @@ Redes Sociais:
       
       11 - LED indicador de relé.
       
-# GRAVAÇÃO DA PLACA COM FTDI:
+# GRAVAÇÃO DA PLACA COM "FTDI":
 
 	1) FTDI Pinos 	-----------------------------	ESP12F_RELAY_X1 Pinos:
 	   - GND	-----------------------------	GND
@@ -79,5 +79,13 @@ Redes Sociais:
 	   - RX		-----------------------------	TX
 
 ![image](https://raw.githubusercontent.com/AthenasArch/ESP12F_Relay_X1/main/Documentos/GravarComFTDI.png)
-      
+
+# GRAVAÇÃO DA PLACA COM "ARDUINO UNO":
+
+	1) UNO Pinos 	-----------------------------	ESP12F_RELAY_X1 Pinos:
+	   - GND	-----------------------------	GND
+	   - 5V		-----------------------------	5V
+	   - TX		-----------------------------	RX
+	   - RX		-----------------------------	TX
+![image](https://raw.githubusercontent.com/AthenasArch/ESP12F_Relay_X1/main/Documentos/GravarComUno.png)
 By: Leonardo HIlgemberg Lopes.
