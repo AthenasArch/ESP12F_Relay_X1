@@ -19,20 +19,21 @@
 #define RELAY_OFF   0 // Rele Desligado
 
 void timerRelay( unsigned long timeInterval ); // inicializa funcao de intervalo do rele.
+void printMenuAthenasArch( void );
 
 /**
  * @brief Funcao Init.
  **/
 void setup() {
 
-    Serial.begin(115200); // inicia a comunicacao serial.
+    Serial.begin(115200); // inicia a comunicacao serial - Velocidade 115200.
     pinMode(PIN_RELAY, OUTPUT); // seta pino do rele como saida.
-
     lcdArch_init(); // inicia display LCD 16x2 I2C
+
+    printMenuAthenasArch(); // imprime o menu da AthenasArch
+
     lcdArch_clear(LCD_CLR); // limpa tela do display...
     lcdArch_print(0, LCD_LINE_1, "ESP12F-RELAY-X1");
-
-    Serial.println("\r\r\n\nESP8266 - Serial INIT\r\r\n\n"); // imprime algo na porta serial.
 }
 
 /**
@@ -41,6 +42,30 @@ void setup() {
 void loop() {
 
     timerRelay(TIME_ACTIVE_RELAY);
+}
+
+/**
+ * @brief Apenas imprime o menu da AthenasArch.
+ * 
+ * @param void.
+ * 
+ * @return void.
+**/
+void printMenuAthenasArch( void ){
+    
+    const char MENU_TITLE[] = 
+"\r\n\t\
+|------------------------------------------|\r\n\t\
+|                                          |\r\n\t\
+|        AthenarArch - From Brazil         |\r\n\t\
+|                                          |\r\n\t\
+|------------------------------------------|\r\n\r\n";
+
+    Serial.println(MENU_TITLE); // imprime o menu Serial
+    lcdArch_clear(LCD_CLR); // limpa tela do display
+    lcdArch_print(0, LCD_LINE_1, "  AthenasArch  ");
+    lcdArch_print(0, LCD_LINE_2, "     BRAZIL    ");
+    delay(5000);
 }
 
 /**
@@ -70,7 +95,7 @@ void timerRelay( unsigned long timeInterval ){
         } else {
             lcdArch_print(0, LCD_LINE_2, "RELAY: OFF");
         }
-
         digitalWrite(PIN_RELAY, toogleRelay);
     }
 }
+
