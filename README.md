@@ -9,6 +9,7 @@ Redes Sociais:
 
    - YouTube: https://www.youtube.com/channel/UCpN0rPQxaVmqBYqXyltqowQ
 
+* Todo firmware postado aqui FOI TESTADO!
 
 * Pensando em facilitar o desenvolvimento de projetos, trouxemos a placa ESP12F_Relay_X1.
 
