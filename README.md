@@ -37,6 +37,7 @@ Redes Sociais:
     - Na pasta "Firmware": Estão lozalizados os codigos Arduino.
     - Na pasta "Documentos": Estão lozalizados os arquivos auxilizares necessários para um completo entendimento do projeto.
     - Na pasta "Codigos": Estão lozalizados apenas os codigos de exemplo utilizando a IDE do Arduino.
+    - Todo firmware, quando necessário, possui um help dentro da pasta do projeto, como exemplo: "ESP12F_Relay_X1/Firmware/Display_16x2_I2C/Help/".
 
 # Descrição dos pinos da placa
 
